@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Frontend Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Welcome Abhi</h1>
+    <p>Backend Developer → Frontend Journey</p>
+  </header>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>Java</li>
+      <li>Spring Boot</li>
+      <li>Kafka</li>
+      <li>Microservices</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Login</h2>
+    <form>
+      <label>Email</label><br />
+      <input type="email" /><br /><br />
+
+      <label>Password</label><br />
+      <input type="password" /><br /><br />
+
+      <label><input type="checkbox" /> Remember Me</label><br /><br />
+
+     <!-- <button type="submit">Login</button> -->
+
+      <button id="loginBtn">Login</button>
+
+    </form>
+  </section>
+
+  
+
+
+  <script src="script.js"></script>
+  <script src="user.js"></script>
+  <script src="fetchUsers.js"></script>
+
+  <section>
+    <h2>Fetched Random Users</h2>
+    <ul id="userList"></ul>
+  </section>
+
+</body>
+</html>
